@@ -170,9 +170,9 @@
 				<section>
 					<section id="fragments">
 						<h2>文字的动画效果</h2>
-						<p style="text-align:center">继续向右翻...</p>
-						<p style="text-align:center" class="fragment">... 再向右翻 ...</p>
-						<p style="text-align:center"><span class="fragment">...</span> <span class="fragment">然后呢，</span><span class="fragment">向下翻 ...</span></p>
+						<p style="text-align:center">向下翻...</p>
+						<p style="text-align:center" class="fragment">... 再向下翻 ...</p>
+						<p style="text-align:center"><span class="fragment">... 然后</span><span class="fragment">呢，</span><span class="fragment">还是向下翻 ...</span></p>
 					</section>
 					<section>
 						<h2>文字的动画效果</h2>
@@ -181,10 +181,10 @@
 						<p style="text-align:center" class="fragment shrink">缩小</p>
 						<p style="text-align:center" class="fragment fade-out">消失</p>
 						<p style="text-align:center">
-							<span style="display:inline-block" class="fragment fade-right">向右进入，</span>
-							<span style="display:inline-block" class="fragment fade-up">向上进入，</span>
-							<span style="display:inline-block" class="fragment fade-down">向下进入，</span>
-							<span style="display:inline-block" class="fragment fade-left">向左进入</span>
+							<span style="display:inline-block" class="fragment fade-right">向右进入</span>
+							<span style="display:inline-block" class="fragment fade-up">- 向上进入</span>
+							<span style="display:inline-block" class="fragment fade-down">- 向下进入</span>
+							<span style="display:inline-block" class="fragment fade-left">- 向左进入</span>
 						</p>
 						<p style="text-align:center" class="fragment fade-in-then-out">显示然后消失</p>
 						<p style="text-align:center" class="fragment fade-in-then-semi-out">显示然后字体淡化</p>
@@ -225,27 +225,32 @@
 				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
 					<h2>背景切换</h2>
 					<p style="text-align:center; color:oldlace">
-						比如可以通过放大缩小的效果
+						比如可以通过放大缩小的动态效果切换
 					</p>
 				</section>
 
 				<section>
-					<h2>无序列表元素</h2>
-					<ul>
-						<li>无序列表第一项</li>
-						<li>无序列表第二项</li>
-						<li>无序列表第三项</li>
-						<li>无序列表第四项</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>有序列表元素</h2>
-					<ol>
-						<li>有序列表第一项</li>
-						<li>有序列表第二项</li>
-						<li>有序列表第三项</li>
-					</ol>
+					<h2>左右两列布局</h2>
+					<div class="two-column">
+						<div class="container left">
+							<h4 style="color:oldlace">左边：无序列表元素</h4>
+							<ul>
+								<li>无序列表第一项</li>
+								<li>无序列表第二项</li>
+								<li>无序列表第三项</li>
+								<li>无序列表第四项</li>
+							</ul>
+						</div>
+						<div class="container right">
+							<h4 style="color:oldlace">右边：有序列表元素</h4>
+							<ol>
+								<li>有序列表第一项</li>
+								<li>有序列表第二项</li>
+								<li>有序列表第三项</li>
+								<li>有序列表第四项</li>
+							</ol>
+						</div>
+					</div>
 				</section>
 
 				<section>
